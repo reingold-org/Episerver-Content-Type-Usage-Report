@@ -1,0 +1,5 @@
+packages/
+.vs/
+Reingold.Episerver.Reports.ContentTypeUsage/bin/
+Reingold.Episerver.Reports.ContentTypeUsage/obj/
+*.user

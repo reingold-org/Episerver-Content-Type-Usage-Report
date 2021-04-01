@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Reingold.Episerver.Reports.ContentTypeUsage</id>
+    <version>$Version$</version>
+    <title></title>
+    <authors>Nate Olmsted</authors>
+    <owners>Reingold</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A report that displays content usages for a selected content type.</description>
+    <copyright>Copyright Reingold $Year$</copyright>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="EPiServer.CMS.AspNet" version="11.19.0" />
+        <dependency id="EPiServer.Framework.AspNet" version="11.19.0" />
+		<dependency id="EPiServer.CMS.UI.Core" version="11.29.0" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETFramework4.7.2" />
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="Views\*.*" target="content\modules\_protected\Reingold\Reports\ContentTypeUsage\Views\" />
+    <file src="bin\Reingold.Episerver.Reports.ContentTypeUsage.dll" target="lib\" />
+  </files>
+</package>
